@@ -2,24 +2,15 @@
 
 This is my final project from my freshman CS120 course in college years ago. The project was to make a simple game in C++. I had a lot of fun building this 2D Mario-like platformer.
 
+## Running
+
 This only runs on Windows, since the school-provided arcade.h/arcade.cpp is Windows-only. Someday I might get around to porting it to other platforms for fun. The API is certainly simple enough.
 
 The `mario.exe` file is a precompiled version that you can run directly. It's not a virus, I promise. But still, you shouldn't go around trusting the word of random people on the internet.
 
+## Building
+
 I don't remember the specific build instructions offhand; the main build command is something like `g++ -Wall mario.cpp arcade.cpp -o mario.exe`.
-
-# Platformer game clone
-
-I made this game way back in 2009 as a final project for my CS120 class. This class was my first exposure to C++, and this project was my first real standalone application written in C++.
-
-## Running
-
-When I first developed the game, I used the provided base library from my professor. This library only runs on Windows, so you'll need a Windows system to compile and run the game.
-
-Run:
-```sh
-g++ mario.cpp arcade.cpp -o game.exe
-```
 
 ## Making levels
 
